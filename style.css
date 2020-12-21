@@ -1,0 +1,97 @@
+body{
+	background-image: url("nyc.jpg");
+    background-repeat: no-repeat;
+	background-size: 1950px;
+	font-family: 'Assistant', sans-serif;
+	color: #fff;
+	font-size: 20px;
+}
+/*---------------------------------------------*/
+.dark{
+	position: fixed;
+	background-color: rgba(0,0,0,.5);
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow-y: auto;
+}
+/*---------------------------------------------*/
+li, h2{
+	color: #fff;
+	background-color: rgba(0,0,0,0.6);
+}
+/*---------------------------------------------*/
+li{
+	list-style: none;
+	display: inline-block;
+}
+li.current, .footer{
+	background-color:#1F9600;
+	color: #fff;
+}
+
+li, a:visited, a{
+	color: #fff;
+	padding: 5px;
+	text-decoration: none;
+}
+li:hover, a:hover{
+	background-color:#BBFF00;
+	color: #000;
+}
+
+h2{
+	font-weight: normal;
+	width: 100px;
+	margin: auto;
+	text-align: center;
+	border: 5px solid;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(to right, #BBFF00 , #1F9600);
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+
+.paragraph{
+	padding: 20px;
+	margin: auto;
+	width: 50%;
+	text-align: left;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+}
+p{
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: normal;
+}
+p::selection{
+	color: black;
+	background: #BBFF00;
+}
+img{
+	float: right;
+	margin-left: 15px;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.footer{
+	text-align: center;
+	padding: 5px 0px;
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	margin: 15px 0px 0px;
+  	height: 2.5rem;
+}
