@@ -1,6 +1,6 @@
 body{
 	background-image: url("nyc.jpg");
-    background-repeat: no-repeat;
+    	background-repeat: no-repeat;
 	background-size: 1950px;
 	font-family: 'Assistant', sans-serif;
 	color: #fff;
@@ -59,7 +59,7 @@ h2{
 .paragraph{
 	padding: 20px;
 	margin: auto;
-	width: 50%;
+	width: 80%;
 	text-align: left;
 	background-color: rgba(0,0,0,.5);
 	color: #fff;
@@ -74,8 +74,11 @@ p::selection{
 	background: #BBFF00;
 }
 img{
-	float: right;
-	margin-left: 15px;
+	/*float: center;*/
+	/*margin-left: 15px;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 #page-container {
   position: relative;
